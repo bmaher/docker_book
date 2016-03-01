@@ -5,4 +5,5 @@
    RUN apt-get install -y nginx
    RUN echo 'bmaher.com' \
        >/var/www/html/index.nginx-debian.html
+   ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
    EXPOSE 80
