@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu
 MAINTAINER Brian Maher "briancmaher@gmail.com"
 ENV REFRESHED_AT 2016-03-03
 
